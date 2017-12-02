@@ -1,0 +1,33 @@
+{
+  "name": "eslint-config-gemsorg",
+  "version": "1.0.0",
+  "description": "ESLint config for the Gems organization",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gemsorg/eslint-config-gemsorg.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Jascha Ephraim <jascha@gems.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gemsorg/eslint-config-gemsorg/issues"
+  },
+  "homepage": "https://github.com/gemsorg/eslint-config-gemsorg#readme",
+  "dependencies": {
+    "eslint": "^4.12.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.5.1"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
