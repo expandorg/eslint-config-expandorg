@@ -1,7 +1,19 @@
-modules.exports = {
+module.exports = {
   extends: require.resolve('eslint-config-airbnb'),
+  env: {
+    browser: true,
+    jest: true,
+  },
   rules: {
-    'no-underscore-dangle': 0,
-    'react/no-array-index-key': 0
-  }
+    'function-paren-newline': 'off',
+    'no-console': 'off',
+    'no-underscore-dangle': 'off',
+    'jsx-a11y/anchor-is-valid': [
+      'error',
+      {
+        specialLink: [ 'hrefLeft', 'hrefRight' ],
+        apects: [ 'noHref', 'invalidHref', 'preferButton' ],
+      },
+    ],
+  },
 };
