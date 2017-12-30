@@ -8,6 +8,12 @@ module.exports = {
     Web3: true,
   },
   rules: {
+    'max-len': [
+      'error',
+      {
+        code: 200
+      }
+    ],
     'function-paren-newline': 'off',
     'no-console': 'off',
     'no-param-reassign': 'off',
