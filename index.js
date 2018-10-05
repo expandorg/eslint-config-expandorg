@@ -7,9 +7,6 @@ module.exports = {
     'prettier/flowtype',
     'prettier/react',
   ],
-  globals: {
-    Web3: true,
-  },
   env: {
     browser: true,
     es6: true,
