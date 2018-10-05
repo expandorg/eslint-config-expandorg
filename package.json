@@ -1,11 +1,9 @@
 {
-  "name": "eslint-config-gemsorg",
-  "version": "1.0.0",
+  "name": "@gemsorg/eslint-config",
+  "version": "0.0.2",
   "description": "ESLint config for the Gems organization",
+  "author": "Jascha Ephraim <jascha@gems.org>",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gemsorg/eslint-config-gemsorg.git"
@@ -14,14 +12,25 @@
     "eslint",
     "eslintconfig"
   ],
-  "author": "Jascha Ephraim <jascha@gems.org>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/gemsorg/eslint-config-gemsorg/issues"
   },
   "homepage": "https://github.com/gemsorg/eslint-config-gemsorg#readme",
+  "peerDependencies": {
+    "eslint": "^5.0.0",
+    "babel-eslint": "^10.0.0",
+    "prettier": "^1.0.0"
+  },
   "dependencies": {
-    "eslint-config-airbnb": "^16.1.0"
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-flowtype": "^2.50.3",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-react": "^7.11.1"
   },
   "engines": {
     "node": ">=8"
