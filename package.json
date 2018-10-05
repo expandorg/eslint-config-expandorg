@@ -1,6 +1,6 @@
 {
   "name": "@gemsorg/eslint-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ESLint config for the Gems organization",
   "author": "Jascha Ephraim <jascha@gems.org>",
   "main": "index.js",
@@ -19,7 +19,8 @@
   "homepage": "https://github.com/gemsorg/eslint-config-gemsorg#readme",
   "peerDependencies": {
     "eslint": "^5.0.0",
-    "babel-eslint": "^10.0.0"
+    "babel-eslint": "^10.0.0",
+    "prettier": "^1.0.0"
   },
   "dependencies": {
     "eslint-config-airbnb": "^17.1.0",
