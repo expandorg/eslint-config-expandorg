@@ -1,2 +1,2 @@
-# eslint-config-gemsorg
-ESLint config for the Gems organization
+# eslint-config-expandorg
+ESLint config for the Expand organization
