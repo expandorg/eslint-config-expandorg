@@ -1,11 +1,11 @@
 {
-  "name": "@gemsorg/eslint-config",
+  "name": "@expandorg/eslint-config",
   "version": "0.1.0",
   "description": "ESLint config for the Gems organization",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gemsorg/eslint-config-gemsorg.git"
+    "url": "git+https://github.com/expandorg/eslint-config-expandorg.git"
   },
   "keywords": [
     "eslint",
@@ -13,9 +13,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gemsorg/eslint-config-gemsorg/issues"
+    "url": "https://github.com/expandorg/eslint-config-expandorg/issues"
   },
-  "homepage": "https://github.com/gemsorg/eslint-config-gemsorg#readme",
+  "homepage": "https://github.com/expandorg/eslint-config-expandorg#readme",
   "peerDependencies": {
     "eslint": "^5.0.0",
     "babel-eslint": "^10.0.0",

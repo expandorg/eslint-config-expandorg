@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['@gemsorg/eslint-config', 'prettier/react'],
+  extends: ['@expandorg/eslint-config', 'prettier/react'],
   env: { browser: true },
   rules: {
     'react/jsx-filename-extension': [1, { extensions: ['.js'] }],

@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['@gemsorg/eslint-config'],
+  extends: ['@expandorg/eslint-config'],
   env: {
     node: true
   }
