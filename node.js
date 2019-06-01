@@ -1,5 +1,7 @@
 module.exports = {
-  extends: ['@expandorg/eslint-config'],
+  extends: [
+    '@expandorg/eslint-config'
+  ],
   env: {
     node: true
   }

@@ -1,6 +1,11 @@
 module.exports = {
-  extends: ['@expandorg/eslint-config', 'prettier/react'],
-  env: { browser: true },
+  extends: [
+    '@expandorg/eslint-config', 
+    'prettier/react'
+  ],
+  env: { 
+    browser: true 
+  },
   rules: {
     'react/jsx-filename-extension': [1, { extensions: ['.js'] }],
     'react/button-has-type': ['off'],
@@ -15,5 +20,8 @@ module.exports = {
     'react/prefer-stateless-function': ['off'],
     'react/prop-types': [2, { ignore: ['children'] }]
   },
-  plugins: ['react']
+  plugins: [
+    'react',
+    'react-hooks'
+  ]
 };

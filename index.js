@@ -20,5 +20,8 @@ module.exports = {
     'no-underscore-dangle': ['off'],
     'import/no-extraneous-dependencies': ['error', { devDependencies: true }]
   },
-  plugins: ['prettier', 'flowtype']
+  plugins: [
+    'prettier', 
+    'flowtype'
+  ]
 };
