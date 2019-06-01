@@ -18,7 +18,9 @@ module.exports = {
       }
     ],
     'react/prefer-stateless-function': ['off'],
-    'react/prop-types': [2, { ignore: ['children'] }]
+    'react/prop-types': [2, { ignore: ['children'] }],
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn'
   },
   plugins: [
     'react',
