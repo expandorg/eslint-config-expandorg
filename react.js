@@ -20,7 +20,10 @@ module.exports = {
     'react/prefer-stateless-function': ['off'],
     'react/prop-types': [2, { ignore: ['children'] }],
     'react-hooks/rules-of-hooks': 'error',
-    'react-hooks/exhaustive-deps': 'warn'
+    'react-hooks/exhaustive-deps': 'warn',
+    'react/static-property-placement': ['off'],
+    'react/jsx-props-no-spreading': ['off'],
+    'react/state-in-constructor': ['off'],
   },
   plugins: [
     'react',
