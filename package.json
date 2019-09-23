@@ -1,6 +1,6 @@
 {
   "name": "@expandorg/eslint-config",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "description": "ESLint config for the Expand.org organization",
   "main": "index.js",
   "repository": {
